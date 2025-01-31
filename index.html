@@ -30,13 +30,15 @@
               colors: {
                 clifford: '#da373d',
                 'primary-color':'#179800',
+                'bg-primary':'#EFEBE3',
+                'text-black':'#111111'
               }
             }
           }
         }
       </script>
 </head>
-<body class="sora">
+<body class="sora text-text-black">
     <header class=" bg-gradient-to-r from-[#FFFFFF] to-[#EFEBE3]">
         <!-- navbar -->
 
@@ -63,18 +65,11 @@
                 <button class="btn btn-success hidden md:block text-white bg-[#179800] px-8">Register</button>
                 <div class="dropdown">
                     <div tabindex="0" role="button" class="btn sm:block md:hidden lg:hidden">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        class="h-5 w-5"
-                        fill=""
-                        viewBox="0 0 24 24"
-                        stroke="currentColor">
-                        <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
-                          d="M4 6h16M4 12h8m-8 6h16" />
+                      
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-green-600">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
                       </svg>
+                      
                     </div>
                   </div>
             </div>
@@ -88,6 +83,60 @@
     </header>
 
     <main>
+      <!-- services Section Starts Here -->
+       <section class="w-[95%] mx-auto mt-16">
+        <!-- services Heading -->
+          <h3 class="text-primary-color font-semibold text-4xl mb-12 pl-5 md:pl-2">Services</h3>
+          <!-- card container -->
+           <div class="grid grid-cols-1 m-5 md:m-0 md:grid-cols-3 gap-5">
+            <!-- card-1 -->
+            <div class="card bg-bg-primary shadow-xl">
+              <figure class="px-10 pt-10 ">
+                <!-- image div -->
+                <div class="h-[150px] w-[150px] flex justify-center items-center  rounded-[50%]  bg-white"><img
+                  src="c2-assets/service.png"
+                  alt="24/7"
+                  class="  w-[100px] h-[100px] " /></div>
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2 class="card-title font-bold text-2xl mt-6 mb-3">24/7 Services </h2>
+                <p class="font-light text-xl">We are always here for you,  <br>  round-the-clock services to  meet  your  <br>  needs anytime, day or night.</p>
+                
+              </div>
+            </div>
+
+            <!-- card-2 -->
+            <div class="card bg-bg-primary shadow-xl">
+              <figure class="px-10 pt-10 ">
+                <!-- image div -->
+                <div class="h-[150px] w-[150px] flex justify-center items-center  rounded-[50%]  bg-white"><img
+                  src="c2-assets/delivery.png"
+                  alt="24/7"
+                  class="  w-[100px] h-[100px] " /></div>
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2 class="card-title font-bold text-2xl mt-6 mb-3">Fast Delivery</h2>
+                <p class="font-light text-xl">Experience lightning-fast <br> delivery that gets your order to your <br> doorstep in record time!</p>
+                
+              </div>
+            </div>
+
+            <!-- card-3 -->
+            <div class="card bg-bg-primary shadow-xl">
+              <figure class="px-10 pt-10 ">
+                <!-- image div -->
+                <div class="h-[150px] w-[150px] flex justify-center items-center  rounded-[50%]  bg-white"><img
+                  src="c2-assets/healthy.png"
+                  alt="24/7"
+                  class="  w-[100px] h-[100px] " /></div>
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2 class="card-title font-bold text-2xl mt-6 mb-3">Healthy Products </h2>
+                <p class="font-light text-xl">Indulge in wellness with our <br> range of healthy products, crafted to <br> nourish your body and mind</p>
+              </div>
+            </div>
+           </div>
+       </section>
     </main>
 
     <footer>
